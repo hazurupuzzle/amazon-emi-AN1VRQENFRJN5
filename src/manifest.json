@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "「Amazon販売・Amazon発送のみの表示」の絞り込み切替",
+	"version": "1.0",
+	"description": "アマゾンの商品の検索結果で「Amazon販売・Amazon発送のみの表示」の絞り込みを切り替える拡張機能です",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"permissions": [
+		"https://amazon.co.jp/s?*",
+		"https://www.amazon.co.jp/s?*"
+	],
+	"background": {
+		"persistent": false,
+		"scripts": [
+			"bg.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": "icon48.png"
+	},
+	"content_security_policy": "script-src 'self'; object-src 'self'"
+}
