@@ -1,4 +1,3 @@
-
 ## 説明
 
 `amazon.co.jp` の商品検索結果で「Amazon販売・Amazon発送のみの表示」のオプション(`&emi=AN1VRQENFRJN5` パラメータ)の付け外しをするChrome拡張機能です。
