@@ -20,10 +20,10 @@ javascript:(function()%7Bvar%20r%3Dfunction%20r(e)%7Breturn%2F(%3F%3A%253A%7C%3D
 
 よくわからないスクリプトを動かしたくない場合は [ブックマークレット用のminify前のコード](https://github.com/hazurupuzzle/amazon-emi-AN1VRQENFRJN5/blob/main/bookmarklet.js) があるのでそれを使ってください。3秒で読める短いコードです。
 
-# 自動では動きません
+## 自動では動きません
 
 最初は自動で切り替わるように作っていたのですが、カテゴリによってはうまく機能しない問題が発覚しました。
 たとえば、Androidアプリのカテゴリで検索したページで `&emi=AN1VRQENFRJN5` をつけると検索結果が0件になってしまいます。頑張ればできるとは思いますが面倒すぎて諦めました。
 
-[GitHubに自動で動くかもしれないソース](https://github.com/hazurupuzzle/amazon-emi-AN1VRQENFRJN5/blob/main/bg_for_auto.js) が打ち捨てられているので察してください。
+[ここに自動で動くかもしれないソース](https://github.com/hazurupuzzle/amazon-emi-AN1VRQENFRJN5/blob/main/bg_for_auto.js) が打ち捨てられているので察してください。
 
